@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32H562RIT6
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=64
+Version=2.1
+Released=2024-09-06 07:31:46
+Downloaded=2026-03-12 20:59:35
+3D=Y
