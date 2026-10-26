@@ -41,7 +41,7 @@
         "pads": {
           "drill": 0.8,
           "height": 1.27,
-          "width": 2.54
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.1778,
+          "min_clearance": 0.5,
           "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -90,7 +90,7 @@
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "ignore",
+        "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
@@ -120,13 +120,13 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "ignore",
+        "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -148,14 +148,14 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.254,
+        "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
@@ -244,14 +244,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.508,
-          "drill": 0.254
-        },
-        {
-          "diameter": 0.508,
-          "drill": 0.3048
         }
       ],
       "zones_allow_external_fillets": false
@@ -507,15 +499,11 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "template"
-    ],
-    "pinned_symbol_libs": [
-      "template"
-    ]
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RoveNode.kicad_pro",
+    "filename": "NucleoAdapterBoard.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -549,14 +537,11 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -620,6 +605,18 @@
         },
         {
           "group_by": true,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -674,26 +671,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "RoveNode.kicad_sch",
-        "name": "RoveNode",
-        "uuid": "fbd9c71c-f200-4aab-a303-9f269bc9de13"
+        "filename": "NucleoAdapterBoard.kicad_sch",
+        "name": "Root",
+        "uuid": "29e7f13e-aa04-422e-a68c-c7d20ffb0140"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R9,J1-7,L1-2,#PWR1-22,#PWR31-36,#PWR52,#PWR56-60,U1-3,C1-8,C16-17,H1-7",
     "variants": []
   },
   "sheets": [
     [
-      "fbd9c71c-f200-4aab-a303-9f269bc9de13",
-      "RoveNode"
-    ],
-    [
-      "99163f9d-2692-4762-9590-cc98c877b3a7",
-      "Power"
-    ],
-    [
-      "98621ee5-b5c8-4557-98dc-2838a24f6b33",
-      "Ethernet PHY"
+      "29e7f13e-aa04-422e-a68c-c7d20ffb0140",
+      "Root"
     ]
   ],
   "text_variables": {},
