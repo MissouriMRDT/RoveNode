@@ -1059,6 +1059,17 @@
 			(uuid "a63a91e8-a003-4214-8c5c-4760cab3ad6c")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/blaydn/Documents/Github/RoveNode/lib/3D Models/NX2016SA_NDK.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm"
 		(layer "F.Cu")
@@ -3723,7 +3734,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -4547,6 +4558,17 @@
 			(uuid "96788de0-0adc-4d20-bcf8-c2644dc00151")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -10239,7 +10261,7 @@
 		(property "Reference" "C6"
 			(at -2.54 -0.034611 0)
 			(layer "B.SilkS")
-			(uuid "d513c2c3-fba3-4285-97f0-2ab1f17a8d61")
+			(uuid "e997f13b-0d6b-4d4d-9958-b1a11f0a06ff")
 			(effects
 				(font
 					(size 1 1)
@@ -10251,7 +10273,7 @@
 		(property "Value" "5.6pF"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
-			(uuid "de377c0e-094e-415b-af04-01295b67d83a")
+			(uuid "e65dbd5e-dbc7-4dce-84ab-4406708f4c4f")
 			(effects
 				(font
 					(size 1 1)
@@ -10264,7 +10286,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "96747cbd-3237-4407-8f29-5f9397e756a0")
+			(uuid "7cacc0b4-8fc8-47bb-b6d0-aff98c7470e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10276,7 +10298,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "128c39e4-0b2d-4341-b5b6-bca4dd560d4c")
+			(uuid "3563da2d-64e0-4245-bb3c-b73859ba5b97")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36351,7 +36373,7 @@
 		(target_delay_max 1000000)
 		(target_delay_min 0)
 		(target_length 33.02)
-		(target_length_max 33.12)
+		(target_length_max 33.119999)
 		(target_length_min 32.92)
 		(target_skew 0)
 		(target_skew_max 0.1)
