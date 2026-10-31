@@ -965,7 +965,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "RoveNode.step",
       "svg": "",
       "vrml": ""
     },
