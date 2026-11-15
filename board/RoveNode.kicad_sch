@@ -1775,6 +1775,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016)
@@ -5799,6 +5922,12 @@
 		(uuid "27b6abaf-c878-43e5-92e5-6306476f46a1")
 	)
 	(junction
+		(at 144.78 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d0be2e8-8ecb-4d1b-97bd-87870daf9ae0")
+	)
+	(junction
 		(at 215.9 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6042,6 +6171,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 50.8) (xy 144.78 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0960e2a2-1d93-4d5b-8869-7bdde03f3e88")
+	)
+	(wire
+		(pts
 			(xy 128.27 129.54) (xy 118.11 129.54)
 		)
 		(stroke
@@ -6142,7 +6281,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 54.61) (xy 180.34 54.61)
+			(xy 140.97 54.61) (xy 144.78 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6292,7 +6431,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 83.82) (xy 262.89 83.82)
+			(xy 265.43 83.82) (xy 267.97 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6672,6 +6811,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 91.44) (xy 256.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a948f20-bc8d-406c-bc22-c42eab5cfea0")
+	)
+	(wire
+		(pts
 			(xy 156.21 190.5) (xy 156.21 193.04)
 		)
 		(stroke
@@ -6679,6 +6828,16 @@
 			(type default)
 		)
 		(uuid "7ad396cc-0128-42be-ba42-a7a537a49a75")
+	)
+	(wire
+		(pts
+			(xy 264.16 86.36) (xy 267.97 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b75f6d6-7e30-4903-82cf-9594680fdd97")
 	)
 	(wire
 		(pts
@@ -6719,6 +6878,16 @@
 			(type default)
 		)
 		(uuid "85ec910d-3366-4122-8cc2-b86dda3361d9")
+	)
+	(wire
+		(pts
+			(xy 264.16 88.9) (xy 267.97 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86258622-c290-468a-b6a1-377d51a05287")
 	)
 	(wire
 		(pts
@@ -6819,6 +6988,16 @@
 			(type default)
 		)
 		(uuid "9dbb6c2c-ef1e-414e-bc69-75c9a4f937f1")
+	)
+	(wire
+		(pts
+			(xy 254 86.36) (xy 256.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ceedb5-1952-4d35-9c59-f61f7d9482e9")
 	)
 	(wire
 		(pts
@@ -6949,6 +7128,16 @@
 			(type default)
 		)
 		(uuid "b1d70100-4bc6-4adf-a77c-f3de1934cc36")
+	)
+	(wire
+		(pts
+			(xy 144.78 54.61) (xy 180.34 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1eb2615-4c8f-403b-863f-8cd04ba4c681")
 	)
 	(wire
 		(pts
@@ -7132,6 +7321,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 91.44) (xy 267.97 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37644cd-b6d9-4450-8b76-2225cf45dd1e")
+	)
+	(wire
+		(pts
 			(xy 33.02 182.88) (xy 33.02 184.15)
 		)
 		(stroke
@@ -7229,6 +7428,16 @@
 			(type default)
 		)
 		(uuid "d5771fcd-c73c-4eb0-8bbc-5a4c2c9efe98")
+	)
+	(wire
+		(pts
+			(xy 254 88.9) (xy 256.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5784ebd-576b-4968-99eb-4e4d0b84e47f")
 	)
 	(wire
 		(pts
@@ -7572,7 +7781,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 93.98) (xy 262.89 93.98)
+			(xy 265.43 93.98) (xy 267.97 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7948,7 +8157,7 @@
 	)
 	(global_label "SWDCLK"
 		(shape output)
-		(at 262.89 86.36 180)
+		(at 254 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7958,7 +8167,7 @@
 		)
 		(uuid "2670cb6f-e4fa-4fff-bafc-db51bab0cd0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.4058 86.36 0)
+			(at 243.5158 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8212,7 +8421,7 @@
 	)
 	(global_label "SWO"
 		(shape input)
-		(at 262.89 91.44 180)
+		(at 254 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8222,7 +8431,7 @@
 		)
 		(uuid "3cf61188-f72f-436c-bb30-615e785cd141")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.9134 91.44 0)
+			(at 247.0234 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8295,6 +8504,30 @@
 		(uuid "448a5d9e-ddf0-4ade-9d64-370a2c3c4f63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 87.856 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "NRST"
+		(shape input)
+		(at 167.64 52.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45c2ae98-59b0-454d-ac5d-a8d3779c4b6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 44.3072 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9388,7 +9621,7 @@
 	)
 	(global_label "SWDIO"
 		(shape bidirectional)
-		(at 262.89 88.9 180)
+		(at 254 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9398,7 +9631,7 @@
 		)
 		(uuid "a59705b9-9339-4d73-9296-4efad19d03e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.9273 88.9 0)
+			(at 244.0373 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10372,7 +10605,7 @@
 	)
 	(global_label "ETH_REF_CLK"
 		(shape output)
-		(at 165.1 54.61 180)
+		(at 140.97 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10382,7 +10615,7 @@
 		)
 		(uuid "f6c93566-d3c9-44ff-a46b-f60fa5fc85ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.6568 54.61 0)
+			(at 125.5268 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10700,6 +10933,97 @@
 			(project "RoveNode"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 260.35 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "148a254f-7a28-45c5-9652-cd68d9a2f90f")
+		(property "Reference" "R27"
+			(at 260.35 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 260.35 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 260.604 90.424 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 260.35 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ield5" ""
+			(at 260.35 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "59b24d20-0999-48a7-a740-87d1cbd8a8f4")
+		)
+		(pin "1"
+			(uuid "2897245e-15ed-464c-9bb5-db9b7c1665b2")
+		)
+		(instances
+			(project "RoveNode"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -11717,7 +12041,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 260.35 83.82 0)
+		(at 265.43 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11728,7 +12052,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b7c914e-a93c-4526-87c8-8522677f0037")
 		(property "Reference" "#PWR020"
-			(at 260.35 87.63 0)
+			(at 265.43 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11739,7 +12063,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 260.35 78.74 0)
+			(at 265.43 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11749,7 +12073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 83.82 0)
+			(at 265.43 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11760,7 +12084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 83.82 0)
+			(at 265.43 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11771,7 +12095,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 260.35 83.82 0)
+			(at 265.43 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11951,7 +12275,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 267.97 88.9 0)
+		(at 273.05 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11962,7 +12286,7 @@
 		(fields_autoplaced yes)
 		(uuid "43e96284-e03e-4f9e-b01d-a14fc83b03a7")
 		(property "Reference" "J1"
-			(at 270.51 87.6299 0)
+			(at 275.59 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11973,7 +12297,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 270.51 90.1699 0)
+			(at 275.59 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11984,7 +12308,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal"
-			(at 267.97 88.9 0)
+			(at 273.05 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11995,7 +12319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 88.9 0)
+			(at 273.05 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12006,7 +12330,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 267.97 88.9 0)
+			(at 273.05 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12761,6 +13085,97 @@
 			(project "RoveNode"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 260.35 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63818f81-bbc2-4164-af64-5e495ee93ec5")
+		(property "Reference" "R25"
+			(at 260.35 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 260.35 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 260.604 85.344 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 260.35 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ield5" ""
+			(at 260.35 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "00473ba6-417b-46ba-9e31-f89eedfb7551")
+		)
+		(pin "1"
+			(uuid "a2204bca-9660-4725-9316-f45d8a9056c6")
+		)
+		(instances
+			(project "RoveNode"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -13555,6 +13970,176 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "906baaa8-75b5-4c91-8d5b-7453ed80377d")
+		(property "Reference" "TP1"
+			(at 147.32 46.2279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ETH_REF_CLK_TP"
+			(at 147.32 48.7679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 149.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "719a570f-13bf-4282-b057-da10f8b4dd7a")
+		)
+		(instances
+			(project "RoveNode"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 260.35 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9145b08d-3ebf-437e-b102-6ca3c5e66ac1")
+		(property "Reference" "R26"
+			(at 260.35 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 260.35 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 260.604 87.884 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 260.35 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ield5" ""
+			(at 260.35 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "15a444fe-9598-4170-b115-37425a4dc589")
+		)
+		(pin "1"
+			(uuid "d853878b-a02b-4cd4-9e5f-7b692098dd4e")
+		)
+		(instances
+			(project "RoveNode"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 132.08 129.54 0)
 		(unit 1)
@@ -14190,7 +14775,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 93.98 0)
+		(at 265.43 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14201,7 +14786,7 @@
 		(fields_autoplaced yes)
 		(uuid "b06aad64-60bb-4d00-b950-a8c685fb1bfc")
 		(property "Reference" "#PWR033"
-			(at 260.35 100.33 0)
+			(at 265.43 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14212,7 +14797,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 99.06 0)
+			(at 265.43 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14222,7 +14807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 93.98 0)
+			(at 265.43 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14233,7 +14818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 93.98 0)
+			(at 265.43 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14244,7 +14829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 93.98 0)
+			(at 265.43 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
