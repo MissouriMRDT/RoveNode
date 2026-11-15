@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.0889,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
@@ -211,6 +211,7 @@
       ],
       "track_widths": [
         0.0,
+        0.2032,
         0.254,
         0.508
       ],
@@ -1107,7 +1108,7 @@
         "uuid": "fbd9c71c-f200-4aab-a303-9f269bc9de13"
       }
     ],
-    "used_designators": "L2,D5-6,Q1,#PWR13,#PWR24-26,#PWR28,#PWR54,TP1-2,U6,F1,R18-22,R24",
+    "used_designators": "J2,L2,D5-6,C17,Q1,#PWR13,#PWR24-26,#PWR28,#PWR38-39,#PWR54,TP1-2,U6,F1,R18-22,R24",
     "variants": []
   },
   "sheets": [
@@ -1129,6 +1130,25 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 6160713,
+            "diff_pair_gap": 762000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "F.Cu",
+            "width": 182066
+          }
+        ],
+        "profile_name": "RJ45",
+        "target_impedance": 100.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }
