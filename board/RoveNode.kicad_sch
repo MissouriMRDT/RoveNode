@@ -13872,7 +13872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "906baaa8-75b5-4c91-8d5b-7453ed80377d")
-		(property "Reference" "TP1"
+		(property "Reference" "ERC1"
 			(at 147.32 46.2279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13933,7 +13933,7 @@
 		(instances
 			(project "RoveNode"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
-					(reference "TP1")
+					(reference "ERC1")
 					(unit 1)
 				)
 			)
