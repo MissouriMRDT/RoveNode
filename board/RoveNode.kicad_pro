@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.1778,
+          "min_clearance": 0.0,
           "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -81,7 +81,12 @@
           "width": 0.179324
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|123343500|79629000|F.Cu|4|cbc91909-b501-429b-929b-b1b4f05ae416|6c982686-be5e-4915-a7f3-7e82dcb18634",
+          "VCAP connected internally to the STM"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -164,7 +169,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -955,6 +960,17 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.499999,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.179324,
+        "name": "Ethernet",
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.179324,
+        "tuning_profile": "Ethernet"
       }
     ],
     "meta": {
@@ -962,7 +978,40 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Ethernet",
+        "pattern": "RX_D+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RX_D-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "TX+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "TX-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "TX_D+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "TX_D-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RX+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "RX-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -1114,7 +1163,7 @@
         "uuid": "fbd9c71c-f200-4aab-a303-9f269bc9de13"
       }
     ],
-    "used_designators": "J2,L2,D5-6,C17,Q1,#PWR13,#PWR24-26,#PWR28,#PWR38-39,#PWR54,TP1-2,U6,F1,R18-22,R24-27",
+    "used_designators": "J2,L2,D5-6,C17,Q1,#PWR13,#PWR24-26,#PWR28,#PWR38-39,#PWR54,TP1-2,U3,U6,F1,R18-22,R24-27",
     "variants": []
   },
   "sheets": [
@@ -1143,13 +1192,21 @@
           {
             "bottom_reference_layer": "In1.Cu",
             "delay": 6160713,
-            "diff_pair_gap": 762000,
+            "diff_pair_gap": 127000,
             "signal_layer": "F.Cu",
             "top_reference_layer": "F.Cu",
-            "width": 182066
+            "width": 179324
+          },
+          {
+            "bottom_reference_layer": "In2.Cu",
+            "delay": 0,
+            "diff_pair_gap": 127000,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "B.Cu",
+            "width": 179324
           }
         ],
-        "profile_name": "RJ45",
+        "profile_name": "Ethernet",
         "target_impedance": 100.0,
         "type": 1,
         "via_overrides": [],

@@ -1,0 +1,5 @@
+(version 1)
+(rule "PHY_Fanout_Rule"
+    (constraint clearance (min 5mil))
+    (constraint diff_pair_gap (min 4mil) (max 700mil))
+    (condition "(A.insideArea('PHY_Fanout') || B.insideArea('PHY_Fanout')) || (A.insideArea('STM_Fanout') || B.insideArea('STM_Fanout')) || (A.insideArea('STM_Fanout_1') || B.insideArea('STM_Fanout_1')) || (A.insideArea('ESD_Fanout') || B.insideArea('ESD_Fanout')) && (A.NetClass == 'Ethernet' || B.NetClass == 'Ethernet')"))
