@@ -3158,6 +3158,253 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Interface_CAN_LIN:TCAN332"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TCAN332"
+				(at 2.54 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, SOT-23-8/SOIC-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "High-Speed CAN Transceiver"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TCAN332_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TCAN332_1_1"
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32H5:STM32H563RITx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4927,224 +5174,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MRDT_Devices:TCAN844-Q1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -21.844 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan844-q1.pdf?ts=1750612665330&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526nr%253D5%2526searchTerm%253DTCAN844V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TCAN844-Q1_1_1"
-				(rectangle
-					(start 0 20.32)
-					(end 20.32 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -2.54 6.35 0)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 -2.54 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 6.35 22.86 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 10.16 0)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 11.43 22.86 270)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 22.86 3.81 180)
-					(length 2.54)
-					(name "CANL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 22.86 16.51 180)
-					(length 2.54)
-					(name "CANH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -2.54 13.97 0)
-					(length 2.54)
-					(name "STB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -6098,10 +6127,6 @@
 		(at 207.01 102.87)
 		(uuid "0763e475-4abc-4c33-bc0e-4a81141403de")
 	)
-	(no_connect
-		(at 236.22 120.65)
-		(uuid "3ed19d60-b274-4866-9168-5e943c782865")
-	)
 	(wire
 		(pts
 			(xy 19.05 110.49) (xy 29.21 110.49)
@@ -6294,6 +6319,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 127) (xy 261.62 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ff2501-430b-4f1f-8346-47e5b1dc04a5")
+	)
+	(wire
+		(pts
 			(xy 33.02 172.72) (xy 33.02 171.45)
 		)
 		(stroke
@@ -6421,6 +6456,16 @@
 			(type default)
 		)
 		(uuid "3de6760f-ead5-460a-b48b-efc8b3f4e2a8")
+	)
+	(wire
+		(pts
+			(xy 261.62 118.11) (xy 261.62 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f85b9c-33a5-4e10-85ef-0c70b690abec")
 	)
 	(wire
 		(pts
@@ -6691,16 +6736,6 @@
 			(type default)
 		)
 		(uuid "6ad31f24-587b-43bd-9b77-ded1a76e9e20")
-	)
-	(wire
-		(pts
-			(xy 234.95 124.46) (xy 236.22 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ca818c2-819a-4d70-8e49-b02aa362ed5f")
 	)
 	(wire
 		(pts
@@ -7684,16 +7719,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 128.27) (xy 236.22 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f24a7c84-eb13-4a4a-9009-ff485f9ac4eb")
-	)
-	(wire
-		(pts
 			(xy 158.75 52.07) (xy 160.02 52.07)
 		)
 		(stroke
@@ -8034,7 +8059,7 @@
 	)
 	(global_label "CAN_TX"
 		(shape input)
-		(at 234.95 128.27 180)
+		(at 236.22 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8044,7 +8069,7 @@
 		)
 		(uuid "2187257a-26dc-4fe4-841e-2ef069c68783")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.131 128.27 0)
+			(at 226.401 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10026,7 +10051,7 @@
 	)
 	(global_label "CAN_RX"
 		(shape output)
-		(at 234.95 124.46 180)
+		(at 236.22 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10036,7 +10061,7 @@
 		)
 		(uuid "c956722c-a9d8-421d-80bf-ddede9c49d2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.8286 124.46 0)
+			(at 226.0986 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13940,105 +13965,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Devices:TCAN844-Q1")
-		(at 238.76 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90bf0872-07d4-4b2a-a48a-f892985f1fcf")
-		(property "Reference" "U3"
-			(at 249.7933 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 238.76 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 238.76 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan844-q1.pdf?ts=1750612665330&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526nr%253D5%2526searchTerm%253DTCAN844V"
-			(at 238.76 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "9d35ce1d-b409-463c-9773-fc2bb0c2d4e3")
-		)
-		(pin "5"
-			(uuid "c0da7e03-0545-42e8-96c4-9bd0c369fc05")
-		)
-		(pin "1"
-			(uuid "7a43532f-8d22-48d7-8441-cd87b80e6cb7")
-		)
-		(pin "8"
-			(uuid "832401df-238c-4adf-ad3c-5f3ba268737b")
-		)
-		(pin "6"
-			(uuid "6b7138ac-4520-46db-b6ec-4a759c3c8e80")
-		)
-		(pin "3"
-			(uuid "95dce5c1-c99d-41e5-8d84-d0fd8f3017b0")
-		)
-		(pin "7"
-			(uuid "049fd3c1-5813-49a2-8ae0-8e9a3e9e33e7")
-		)
-		(pin "2"
-			(uuid "914967ad-1b45-4c22-b647-b7e4e3db665a")
-		)
-		(instances
-			(project "RoveNode"
-				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 260.35 88.9 90)
 		(unit 1)
@@ -14842,6 +14768,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_CAN_LIN:TCAN332")
+		(at 248.92 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b16649e2-c4e2-42de-b179-3d56c26734cb")
+		(property "Reference" "U3"
+			(at 251.0633 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCAN332"
+			(at 251.0633 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 248.92 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
+			(at 248.92 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, SOT-23-8/SOIC-8"
+			(at 248.92 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02d1522e-c69d-485c-a43e-9325e8c9d211")
+		)
+		(pin "2"
+			(uuid "912c0c39-a97e-4665-84fa-ecd898eab80b")
+		)
+		(pin "8"
+			(uuid "f6a48fa1-1d53-4574-a80c-3511aff0f8e6")
+		)
+		(pin "7"
+			(uuid "66aa4682-5f91-4d20-92e8-bbff593be929")
+		)
+		(pin "6"
+			(uuid "2e98c7ae-4964-4d90-bcd0-9cbac4597739")
+		)
+		(pin "5"
+			(uuid "66551c6e-9733-40f9-adc6-5d8a7cc06c43")
+		)
+		(pin "4"
+			(uuid "144f2cff-3001-4a14-8e03-d599145ea1f3")
+		)
+		(pin "3"
+			(uuid "d9159962-b695-43df-b921-7d3e4fb8f419")
+		)
+		(instances
+			(project "RoveNode"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 170.18 78.74 0)
 		(unit 1)
@@ -15493,7 +15520,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 137.16 0)
+		(at 248.92 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15504,7 +15531,7 @@
 		(fields_autoplaced yes)
 		(uuid "df6087a8-9c7a-4594-8028-969c824c4a33")
 		(property "Reference" "#PWR014"
-			(at 247.65 143.51 0)
+			(at 248.92 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15515,7 +15542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 142.24 0)
+			(at 248.92 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15525,7 +15552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 137.16 0)
+			(at 248.92 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15536,7 +15563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 137.16 0)
+			(at 248.92 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15547,7 +15574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 137.16 0)
+			(at 248.92 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15653,7 +15680,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 245.11 111.76 0)
+		(at 248.92 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15664,7 +15691,7 @@
 		(fields_autoplaced yes)
 		(uuid "efea63e0-8500-49b7-a953-04f2a1e19608")
 		(property "Reference" "#PWR021"
-			(at 245.11 115.57 0)
+			(at 248.92 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15675,7 +15702,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 245.11 106.68 0)
+			(at 248.92 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15685,7 +15712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 111.76 0)
+			(at 248.92 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15696,7 +15723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 111.76 0)
+			(at 248.92 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15707,7 +15734,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 245.11 111.76 0)
+			(at 248.92 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
