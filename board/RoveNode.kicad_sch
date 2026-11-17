@@ -6349,7 +6349,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 92.71) (xy 318.77 95.25)
+			(xy 237.49 106.68) (xy 237.49 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6739,7 +6739,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 82.55) (xy 318.77 85.09)
+			(xy 237.49 96.52) (xy 237.49 99.06)
 		)
 		(stroke
 			(width 0)
@@ -11421,7 +11421,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 318.77 82.55 0)
+		(at 237.49 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11432,7 +11432,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c9bc3a3-3670-4221-bad0-70ae8d9141f8")
 		(property "Reference" "#PWR052"
-			(at 318.77 86.36 0)
+			(at 237.49 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11443,7 +11443,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 318.77 77.47 0)
+			(at 237.49 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11453,7 +11453,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 318.77 82.55 0)
+			(at 237.49 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11464,7 +11464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 82.55 0)
+			(at 237.49 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11475,7 +11475,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 318.77 82.55 0)
+			(at 237.49 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12435,6 +12435,88 @@
 			(project "RoveNode"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 237.49 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "499b4450-7903-4f0a-8f6e-7a1fe7721faf")
+		(property "Reference" "C16"
+			(at 241.3 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 241.3 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 238.4552 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 237.49 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e7cebb7-1a4e-4c68-9355-ea8d9f740790")
+		)
+		(pin "2"
+			(uuid "cd4d88f9-8e8b-4e14-b90e-0e4fd30a61cd")
+		)
+		(instances
+			(project "RoveNode"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -14536,7 +14618,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 318.77 95.25 0)
+		(at 237.49 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14547,7 +14629,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4f62e31-13e8-4554-90eb-ccab0693cbc5")
 		(property "Reference" "#PWR034"
-			(at 318.77 101.6 0)
+			(at 237.49 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14558,7 +14640,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 318.77 100.33 0)
+			(at 237.49 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14568,7 +14650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 318.77 95.25 0)
+			(at 237.49 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14579,7 +14661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 95.25 0)
+			(at 237.49 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14590,7 +14672,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 318.77 95.25 0)
+			(at 237.49 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

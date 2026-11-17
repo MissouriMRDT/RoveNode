@@ -60,8 +60,8 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
-          "min_island_area": 10.0,
+          "min_clearance": 0.1778,
+          "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 0,
@@ -1295,7 +1295,7 @@
         "uuid": "fbd9c71c-f200-4aab-a303-9f269bc9de13"
       }
     ],
-    "used_designators": "ERC1,J2,L2,D5-6,C17,Q1,#PWR13,#PWR24-26,#PWR28,#PWR38-39,#PWR54,TP1-2,U3,U6,F1,R18-22,R24-27",
+    "used_designators": "ERC1,J2,L2,D5-6,C16-17,Q1,#PWR13,#PWR24-26,#PWR28,#PWR38-39,#PWR54,TP1-2,U3,U6,F1,R18-22,R24-27",
     "variants": []
   },
   "sheets": [
